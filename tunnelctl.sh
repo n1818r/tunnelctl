@@ -8,8 +8,8 @@ DEFAULT_SSH_HOST="noor.com"
 SCRIPT_PATH="$(realpath "$0")"
 
 # Services and their default remote ports
-SERVICE_NAMES=("postgres" "mongodb" "redis")
-SERVICE_PORTS=(5432 27017 6379)
+SERVICE_NAMES=("postgres" "mongodb" "redis","elasticsearch")
+SERVICE_PORTS=(5432 27017 6379 9200)
 LOCAL_PORTS=()
 
 BACKGROUND=true
